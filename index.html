@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kavya Bansal — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">KB</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#responsibilities">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">IIT Guwahati · CSE · 2026</div>
+      <h1 class="hero-name">Kavya<br/><span class="outline-text">Bansal</span></h1>
+      <p class="hero-tagline">Developer · Designer · Creator</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">8.05</span><span class="stat-label">CGPA</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">2210</span><span class="stat-label">JEE Advanced Rank</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Clubs & Roles</span></div>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="avatar-svg">
+            <circle cx="100" cy="80" r="45" fill="#fff" opacity="0.15"/>
+            <circle cx="100" cy="80" r="35" fill="#fff" opacity="0.25"/>
+            <text x="100" y="95" text-anchor="middle" font-size="42" font-family="Playfair Display" font-weight="900" fill="white">KB</text>
+            <circle cx="100" cy="170" r="55" fill="#fff" opacity="0.08"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading">Who I Am</h2>
+          <p>I'm Kavya Bansal, a B.Tech Computer Science student at <strong>Indian Institute of Technology, Guwahati</strong>. I build things — websites, designs, experiences — with a sharp eye for detail and a love for creative problem-solving.</p>
+          <p>My world lives at the intersection of code and design: from crafting intuitive product concepts to designing posters that turn heads. I thrive on projects that demand both technical depth and visual imagination.</p>
+          <p>Outside the classroom, I wear many hats — event manager, deputy coordinator, senior executive, and contributor to open-source programs. I believe great work emerges when curiosity meets execution.</p>
+          <div class="education-cards">
+            <div class="edu-card">
+              <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div>
+                <div class="edu-title">B.Tech — Computer Science</div>
+                <div class="edu-sub">IIT Guwahati · 2026–Present · CGPA 8.05</div>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon"><i class="fas fa-school"></i></div>
+              <div>
+                <div class="edu-title">Senior Secondary (XII)</div>
+                <div class="edu-sub">CBSE Board · 2025 · 94.0%</div>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon"><i class="fas fa-medal"></i></div>
+              <div>
+                <div class="edu-title">Secondary (X)</div>
+                <div class="edu-sub">CBSE Board · 2023 · 96.8%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-card-float">
+            <div class="about-card-inner">
+              <div class="ac-row"><i class="fas fa-map-marker-alt"></i><span>Guwahati, India</span></div>
+              <div class="ac-row"><i class="fas fa-envelope"></i><span>kavya1051@iitg.ac.in</span></div>
+              <div class="ac-row"><i class="fas fa-phone"></i><span>+91-8168755581</span></div>
+              <div class="ac-row"><i class="fab fa-linkedin"></i><span>linkedin.com/in/kavya-bansal-446</span></div>
+              <div class="ac-divider"></div>
+              <div class="ac-interests">
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Web Dev</span>
+                <span class="tag">Product Mgmt</span>
+                <span class="tag">Consulting</span>
+                <span class="tag">Video Editing</span>
+                <span class="tag">Open Source</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section-red">
+    <div class="container">
+      <div class="section-label light">02 — Skills</div>
+      <h2 class="section-heading light">What I Work With</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-group-title"><i class="fas fa-code"></i> Programming</div>
+          <div class="skill-chips">
+            <span class="chip chip-solid">C</span>
+            <span class="chip chip-solid">C++</span>
+            <span class="chip chip-solid">HTML</span>
+            <span class="chip chip-solid">CSS</span>
+            <span class="chip chip-solid">Prompt Eng.</span>
+            <span class="chip chip-outline">JavaScript</span>
+            <span class="chip chip-outline">Python</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title"><i class="fas fa-tools"></i> Technical Tools</div>
+          <div class="skill-chips">
+            <span class="chip chip-solid">Canva</span>
+            <span class="chip chip-solid">Figma</span>
+            <span class="chip chip-solid">Video Editing</span>
+            <span class="chip chip-solid">Audio Editing</span>
+            <span class="chip chip-solid">Poster Design</span>
+            <span class="chip chip-outline">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title"><i class="fas fa-brain"></i> Non-Technical</div>
+          <div class="skill-chips">
+            <span class="chip chip-solid">Product Management</span>
+            <span class="chip chip-solid">Consulting</span>
+            <span class="chip chip-solid">Event Management</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title"><i class="fas fa-book-open"></i> Coursework</div>
+          <div class="skill-chips">
+            <span class="chip chip-solid">DSA</span>
+            <span class="chip chip-solid">OOPS</span>
+            <span class="chip chip-solid">Digital Design</span>
+            <span class="chip chip-solid">Linear Algebra</span>
+            <span class="chip chip-solid">Graph Theory</span>
+            <span class="chip chip-solid">Discrete Maths</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-note">* Elementary proficiency — JavaScript, Python, SQL</div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-heading">Selected Work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-category="Design">
+          <div class="project-img">
+            <div class="project-img-placeholder pi-blue">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="project-category">Design · Product</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Bottle Design</h3>
+            <p class="project-org">Consulting and Analytics Club · Dec 2025</p>
+            <p class="project-desc">A self-contained smart hydration bottle tackling poor hydration through behavioral design — no app dependency. Features feedback mechanisms including a slider, vibration, and self-detection to make dehydration intuitive and action-driven.</p>
+            <div class="project-tags">
+              <span>Product Design</span><span>UX Research</span><span>Behavioral Design</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1JkefhrejOz9YlbuZq5ttJTLl98MjcltL?usp=share_link" class="project-link">View Project <i class="fas fa-arrow-right" target="_blank"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Design">
+          <div class="project-img">
+            <div class="project-img-placeholder pi-red">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="project-category">UX · Storytelling</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Alumni Interaction</h3>
+            <p class="project-org">Smart India Hackathon · Aug–Sept 2025</p>
+            <p class="project-desc">A one-day concept project exploring creative storytelling through design. Applied strong visual thinking — composition, pacing, and minimal elements — to convey a compelling idea with clarity under tight time constraints.</p>
+            <div class="project-tags">
+              <span>Visual Design</span><span>Storytelling</span><span>Rapid Prototyping</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1u4khcrSTi8ugEHe0pSqB5WVJ3BWu0S3T?usp=share_link" class="project-link">View Project <i class="fas fa-arrow-right" target="_blank"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="Design">
+          <div class="project-img">
+            <div class="project-img-placeholder pi-dark">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="project-category">Graphic Design</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Poster Design</h3>
+            <p class="project-org">Coding Club · Dec 2025</p>
+            <p class="project-desc">Designed a promotional poster for a nationwide hackathon — visually communicating theme and key event details. Used illustration, typography, and color hierarchy to create an engaging tech-driven visual narrative aligned with the club's brand.</p>
+            <div class="project-tags">
+              <span>Illustration</span><span>Typography</span><span>Branding</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1o_86ANIl_jRdnm3nbfHfyYDEwnh9uRu_?usp=share_link" class="project-link">View Project <i class="fas fa-arrow-right" target="_blank"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card project-card-wide" data-category="Design">
+          <div class="project-img">
+            <div class="project-img-placeholder pi-gradient">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <div class="project-category">Ongoing · Self</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Design Portfolio</h3>
+            <p class="project-org">Self Project · Sept 2025 – Ongoing</p>
+            <p class="project-desc">An evolving personal design portfolio showcasing a wide range of creative work — from digital illustrations and UI mockups to motion graphics and brand identities. Continuously updated with new experiments and client work.</p>
+            <div class="project-tags">
+              <span>UI/UX</span><span>Illustration</span><span>Motion</span><span>Brand Identity</span>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1Sc2AoNogm5ULOe7Yf0_Hl9CgOPBMa2Wh?usp=share_link" class="project-link">View Project <i class="fas fa-arrow-right" target="_blank"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESPONSIBILITIES ── -->
+  <section id="responsibilities" class="section-light">
+    <div class="container">
+      <div class="section-label">04 — Experience</div>
+      <h2 class="section-heading">Positions of Responsibility</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Contributor</div>
+                <div class="tl-org">GirlScript Summer of Code</div>
+              </div>
+              <div class="tl-date">June 2026 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Contributing to open-source projects as part of one of India's largest open-source programs, gaining hands-on collaborative development experience.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Event Manager</div>
+                <div class="tl-org">CSE Association, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">May 2026 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Planning and executing technical and cultural events for the Computer Science community at IIT Guwahati, managing logistics and cross-team coordination.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Deputy Coordinator — Design Module</div>
+                <div class="tl-org">Coding Club, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">Jan 2026 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Leading the design vertical of IIT Guwahati's Coding Club — overseeing visual identity, promotional material, and workshop design sessions.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Associate</div>
+                <div class="tl-org">CNA Club, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">Jan 2026 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Active member of the Consulting and Analytics Club, contributing to case studies, research projects, and knowledge-sharing events.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Senior Executive</div>
+                <div class="tl-org">E-Cell, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">Nov 2025 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Driving entrepreneurship initiatives on campus — organizing startup events, guest lectures, and mentoring sessions within the E-Cell ecosystem.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Associate</div>
+                <div class="tl-org">Alcheringa, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">Dec 2025 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Contributing to Asia's largest cultural festival organized by IIT Guwahati, supporting event planning and execution across creative verticals.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">City Representative</div>
+                <div class="tl-org">Technolothon, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">Nov 2025 – Dec 2025</div>
+            </div>
+            <p class="tl-desc">Represented the city at Technolothon, coordinating regional participation and outreach for the national-level technology competition.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <div class="tl-role">Member</div>
+                <div class="tl-org">Cadence, IIT Guwahati</div>
+              </div>
+              <div class="tl-date">March 2026 – Ongoing</div>
+            </div>
+            <p class="tl-desc">Active participant in Cadence, engaging in collaborative initiatives focused on rhythmic and creative arts within IIT Guwahati.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ACHIEVEMENTS ── -->
+  <section id="achievements" class="section-red">
+    <div class="container">
+      <div class="section-label light">05 — Achievements</div>
+      <h2 class="section-heading light">Milestones</h2>
+      <div class="achievements-grid">
+        <div class="ach-card">
+          <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+          <div class="ach-title">JEE Advanced</div>
+          <div class="ach-stat">Rank 2210</div>
+          <div class="ach-desc">Out of 1.8 Lakh candidates · 2025</div>
+        </div>
+        <div class="ach-card ach-card-featured">
+          <div class="ach-icon"><i class="fas fa-star"></i></div>
+          <div class="ach-title">JEE Mains</div>
+          <div class="ach-stat">Top 0.124%</div>
+          <div class="ach-desc">Out of 14 Lakh students · 2025</div>
+        </div>
+        <div class="ach-card">
+          <div class="ach-icon"><i class="fas fa-medal"></i></div>
+          <div class="ach-title">10th CBSE</div>
+          <div class="ach-stat">Gold Medal</div>
+          <div class="ach-desc">School Gold Medal for academic excellence · 2023</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">06 — Contact</div>
+      <h2 class="section-heading">Let's Talk</h2>
+      <p class="contact-intro">I'm always open to new opportunities, collaborations, and conversations. Drop a message and I'll get back to you.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="ci-label">Email</div>
+              <a href="mailto:kavya1051@iitg.ac.in" class="ci-value">kavya1051@iitg.ac.in</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <div class="ci-label">Phone</div>
+              <a href="tel:+918168755581" class="ci-value">+91-8168755581</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <div class="ci-label">LinkedIn</div>
+              <a href="https://linkedin.com/in/kavya-bansal-446" target="_blank" class="ci-value">kavya-bansal-446</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="ci-label">Location</div>
+              <span class="ci-value">IIT Guwahati, Assam, India</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Arjun Sharma" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="arjun@example.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent successfully! I'll respond soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Kavya Bansal</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="mailto:kavya1051@iitg.ac.in" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/kavya-bansal-446" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copy">© 2025 Kavya Bansal · IIT Guwahati</div>
+    </div>
+  </footer>
+
+  <script src="k.js"></script>
+</body>
+</html>
